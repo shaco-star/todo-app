@@ -1,0 +1,62 @@
+.light .upper {
+  background-image: url(./images/bg-desktop-light.jpg);
+}
+
+.light .body {
+  background-color: var(--very-light-gray);
+}
+
+.light .main__container {
+  background-color: transparent;
+}
+
+.light .item__wrapper {
+  background-color: white;
+}
+
+.light .check__complete:hover {
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.light .items__container {
+  background-color: white;
+}
+
+.light .item,
+.light input {
+  color: var(--very-dark-grayish-blue);
+}
+
+/* .light input {
+  color: var(--very-dark-grayish-blue);
+} */
+
+.light .items {
+  border-bottom: 1px solid var(--very-light-grayish-blue);
+}
+
+.light .check__complete {
+  border: 1px solid var(--very-light-grayish-blue);
+}
+
+.check__complete:hover {
+  border: double 1px transparent;
+  background-image: linear-gradient(
+      var(--very-light-grayish-blue),
+      var(--very-light-grayish-blue)
+    ),
+    linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.light .bottom__wrapper {
+  color: var(--dark-grayish-blue);
+}
+
+.light .nav ul li:hover {
+  color: var(--very-dark-grayish-blue);
+}
+
+.light .clear:hover {
+  color: var(--very-dark-grayish-blue);
+}
