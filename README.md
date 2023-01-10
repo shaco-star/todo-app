@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #TODO APP
 
 ![TODO app](/todo-dark.png "TODO app")
+![TODO app](/todo-light.png "TODO app")
 
 
 ## Available Scripts
